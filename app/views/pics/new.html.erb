@@ -1,15 +1,19 @@
 <div class="row-fluid">
-	<div class="steamy-hottub">
-		<h2 class="custom-font">
-			AO AO AO AO AO AO AO AO AO AO AO AO 
-
+	<div class="steamy-hottub span4 offset4 text-center">
+		<h1 class="custom-font small-caps">
+			Answer <br/> AND <br/>Submit <br/>
+		</h1>
+		<br/>
+		<h5 class="custom-font">
 			<%= simple_form_for @pic do |f| %>		
-				<%= f.input :hour %>
-				<%= f.input :emotion %>
-				<%= f.input :learned %>
+				<%= f.input :hour, label: 'Which Hour was this?', placeholder: '1, 2, 3, etc...'%>
+				<%= f.input :emotion, label: 'How did you feel?', placeholder: 'Stoked, Excited, Confused' %>
+				<%= f.input :learned, label: 'What did you learn?', placeholder: 'HTML, CSS3, Rails, Ruby, Github' %>
+				<br/>
 
-				<%= f.submit 'Submit' %>
+				<%= f.submit 'Save', :class => 'btn btn-warning btn-large' %>
 			<% end %>
-		</h2>
+
+		</h5>
 	</div>
 </div>
