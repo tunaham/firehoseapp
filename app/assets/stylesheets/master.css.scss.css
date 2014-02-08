@@ -11,6 +11,12 @@
 	margin-top: 13px;
 }
 
+.navbar .nav {
+	float: right;
+}
+.navbar .brand {
+	font-size: 27px;
+}
 body {
 
 	background: url('bg.jpg') no-repeat center center fixed;
