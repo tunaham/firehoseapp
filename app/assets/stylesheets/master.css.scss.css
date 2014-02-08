@@ -4,7 +4,7 @@
 	box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.50);
 	background-color: rgba(36,32,33,0.50);
 	padding: 5%;
-	margin-top: 100px;
+	margin-top: 30px;
 }
 
 .btn {
@@ -21,7 +21,6 @@ body {
 
 	font-family: Helvetica, sans-serif;
 }
-
 /*
 	Typography
 */
@@ -43,4 +42,16 @@ h4 {
 .custom-font {
 	color: white;
 }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+
+
+
+
+
+
 
