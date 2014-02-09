@@ -37,6 +37,8 @@ gem "twitter-bootstrap-rails"
 
 gem 'simple_form'
 
+gem 'carrierwave'
+
 #simple form!
 
 # Use ActiveModel has_secure_password
